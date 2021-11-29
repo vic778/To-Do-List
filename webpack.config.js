@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: path.resolve(__dirname, './src/index.js'),
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
@@ -15,7 +15,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/todo-list/',
+    publicPath: '/to-do-list',
     clean: true,
   },
   module: {
