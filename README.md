@@ -34,9 +34,9 @@
 
 ### Cloning the repo to your local system (If you already have git, installed in your system):
 
-- [Copy this link]()
+- [Copy this link](https://github.com/vic778/To-Do-List/tree/develop)
 - Open your terminal or command line
-- Run "git clone [Paste this link]()"
+- Run "git clone [Paste this link](https://github.com/vic778/To-Do-List/tree/develop)"
 - Open the folder with your code editor
 - Now You can edit the code and check the changes in the browser using Live Server
 
