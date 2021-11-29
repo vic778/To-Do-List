@@ -1,9 +1,9 @@
 import './styles.css';
 import addList from './addToList.js';
+import completedTask from './checkBox.js';
 
 const todoList = document.querySelector('#todoList');
 const inputFaild = document.querySelector('#inputFaild');
-// const clearAll = document.querySelector('#clearAll');
 
 const stock = [];
 
@@ -31,4 +31,12 @@ inputFaild.addEventListener('keypress', (e) => {
     displayToDoList();
     inputFaild.value = '';
   }
+});
+
+// for check all box
+const checkBoxButtons = document.querySelectorAll('#defaultCheck1');
+checkBoxButtons.forEach((btn) => {
+  btn.addEventListener('change', (e) => {
+    completedTask(e);
+  });
 });
