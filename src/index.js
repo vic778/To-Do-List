@@ -1,5 +1,5 @@
 import './styles.css';
-import addList from './addToList';
+import addList from './addToList.js';
 
 const todoList = document.querySelector('#todoList');
 const inputFaild = document.querySelector('#inputFaild');
