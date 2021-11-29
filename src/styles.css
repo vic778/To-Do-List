@@ -1,3 +1,56 @@
 body {
-   background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.description {
+  padding-left: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: rgb(15, 146, 179);
+}
+
+.list-group-item {
+  list-style-type: none;
+  border: 3px solid rgb(233, 224, 224);
+  margin-left: -40px;
+}
+
+.list-todo {
+  display: flex;
+  margin: 15px 15px;
+}
+
+.card {
+  border: 3px solid rgb(233, 224, 224);
+  width: 50%;
+  background-color: antiquewhite;
+  padding: 1px 20px;
+}
+
+.delete {
+  font-weight: 900;
+  float: right;
+  margin-left: 380px;
+}
+
+.form-control {
+  border: 10px solid white;
+  padding: 1px 143px;
+  text-align: start;
+}
+
+.btn-clear1 {
+  border: 5px solid rgb(57, 57, 59);
+  font-weight: bold;
+  padding: 1px 180px;
+  background-color: blue;
+  color: aliceblue;
 }
