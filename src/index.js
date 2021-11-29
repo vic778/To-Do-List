@@ -32,14 +32,3 @@ inputFaild.addEventListener('keypress', (e) => {
     inputFaild.value = '';
   }
 });
-
-// const editButtons = document.querySelectorAll('.description');
-// editButtons.forEach((btn) => {
-//   btn.addEventListener('keypress', (e) => {
-//     if (e.key === 'Enter') {
-//       editTodo(e);
-//       todoList.innerHTML = '';
-//       displayToDoList();
-//     }
-//   });
-// });
