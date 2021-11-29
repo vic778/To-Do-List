@@ -8,6 +8,11 @@ body {
   margin-top: 100px;
 }
 
+.text-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 .description {
   padding-left: 10px;
 }
@@ -21,6 +26,7 @@ body {
   list-style-type: none;
   border: 3px solid rgb(233, 224, 224);
   margin-left: -40px;
+  margin-right: 190px;
 }
 
 .list-todo {
@@ -43,14 +49,14 @@ body {
 
 .form-control {
   border: 10px solid white;
-  padding: 1px 143px;
+  padding: 1px 150px;
   text-align: start;
 }
 
 .btn-clear1 {
   border: 5px solid rgb(57, 57, 59);
   font-weight: bold;
-  padding: 1px 180px;
+  padding: 8px 180px;
   background-color: blue;
   color: aliceblue;
 }
