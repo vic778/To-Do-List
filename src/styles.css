@@ -46,7 +46,7 @@ body {
   display: flex;
 }
 
-.fas fa {
+.fas {
   font-weight: 900;
   align-self: flex-end;
 }
