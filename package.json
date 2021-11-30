@@ -1,0 +1,45 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vic778/To-Do-List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vic778/To-Do-List/issues"
+  },
+  "homepage": "https://github.com/vic778/To-Do-List#readme",
+  "dependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "bootstrap": "^5.1.0",
+    "gh-pages": "^3.2.3",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^3.11.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0"
+  }
+}
