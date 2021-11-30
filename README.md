@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> In this project,I have created a simple HTML to-do list. The list is styled according to the specifications listed later in this lesson.This simple web page is built using webpack and served by a webpack development server.
+> In this project, I added some features to my application to make it interactive. The user will also be able to mark the completion of a task by checking the corresponding box (or cancel it by unchecking the box). The updated task list will be stored in the local storage.
 
 
 ![](https://github.com/vic778/To-Do-List/blob/checkbox/img/screen2.png)
