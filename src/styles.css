@@ -26,12 +26,13 @@ body {
   list-style-type: none;
   border: 3px solid rgb(233, 224, 224);
   margin-left: -40px;
-  margin-right: 190px;
 }
 
 .list-todo {
   display: flex;
   margin: 15px 15px;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .card {
@@ -41,10 +42,13 @@ body {
   padding: 1px 20px;
 }
 
+.group-items {
+  display: flex;
+}
+
 .delete {
   font-weight: 900;
-  float: right;
-  margin-left: 380px;
+  align-self: flex-end;
 }
 
 .form-control {
