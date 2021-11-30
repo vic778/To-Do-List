@@ -3,7 +3,7 @@ import addList from './addToList.js';
 import completedTask from './checkBoxItem.js';
 import editToDoList from './editToList.js';
 import deleteToDo from './deleteToList.js';
-import clearAllList from './clearAllToList.js';
+import clearAllList from './clearAllToList';
 
 const todoList = document.querySelector('#todoList');
 const inputFaild = document.querySelector('#inputFaild');
