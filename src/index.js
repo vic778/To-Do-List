@@ -1,9 +1,13 @@
 import './styles.css';
 import addList from './addToList.js';
 import completedTask from './checkBoxItem.js';
+import editToDoList from './editToList.js';
+import deleteToDo from './deleteToList.js';
+import clearAllList from './clearAllToList.js';
 
 const todoList = document.querySelector('#todoList');
 const inputFaild = document.querySelector('#inputFaild');
+const clearAllToDo = document.querySelector('#clearAllToDo');
 
 const stock = [];
 
@@ -25,6 +29,7 @@ function displayToDoList() {
     });
   }
 
+  // Create element in the Array
   inputFaild.addEventListener('keypress', (e) => {
     if (e.key === 'Enter' && inputFaild.value) {
       addList(stock, inputFaild.value);
@@ -41,6 +46,34 @@ function displayToDoList() {
       completedTask(e);
     });
   });
+
+  // Edit element
+  const editButtons = document.querySelectorAll('.description');
+  editButtons.forEach((btn) => {
+    btn.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        editToDoList(e);
+        todoList.innerHTML = '';
+        displayToDoList();
+      }
+    });
+  });
+
+  // delete element
+  const deleteButtons = document.querySelectorAll('.delete');
+  deleteButtons.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      deleteToDo(e);
+      todoList.innerHTML = '';
+      displayToDoList();
+    });
+  });
 }
 
 displayToDoList();
+
+clearAllToDo.addEventListener('click', () => {
+  clearAllList();
+  todoList.innerHTML = '';
+  displayToDoList();
+});
