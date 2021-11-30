@@ -2,7 +2,8 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> In this project,I have created a simple HTML to-do list. The list is styled according to the specifications listed later in this lesson.This simple web page is built using webpack and served by a webpack development server.
+> In this project, 
+- I implement the CRUD (create, update, delete) methods. All the elements of the user interface will be fully functional and my application is completed.
 
 
 ![](img/screen)
