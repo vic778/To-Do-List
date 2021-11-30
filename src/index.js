@@ -1,11 +1,8 @@
 import './styles.css';
-import addList from './addToList.js';
-import completedTask from './checkBoxItem.js';
-// eslint-disable-next-line import/extensions
+import addList from './addToList';
+import completedTask from './checkBoxItem';
 import editToDoList from './editToList';
-// eslint-disable-next-line import/extensions
 import deleteToDo from './deleteToList';
-// eslint-disable-next-line import/extensions
 import clearAllList from './clearAllToList';
 
 const todoList = document.querySelector('#todoList');
