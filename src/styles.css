@@ -46,7 +46,7 @@ body {
   display: flex;
 }
 
-.delete {
+.fas fa {
   font-weight: 900;
   align-self: flex-end;
 }
