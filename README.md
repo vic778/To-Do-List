@@ -5,7 +5,7 @@
 > In this project,I have created a simple HTML to-do list. The list is styled according to the specifications listed later in this lesson.This simple web page is built using webpack and served by a webpack development server.
 
 
-![](img/screen2)
+![](https://github.com/vic778/To-Do-List/blob/checkbox/img/screen2.png)
 ## Built With
 
 - HTML5
