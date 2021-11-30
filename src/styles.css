@@ -53,14 +53,14 @@ body {
 
 .form-control {
   border: 10px solid white;
-  padding: 1px 150px;
+  padding: 1px 245px;
   text-align: start;
 }
 
 .btn-clear1 {
   border: 5px solid rgb(57, 57, 59);
   font-weight: bold;
-  padding: 8px 180px;
+  padding: 8px 280px;
   background-color: blue;
   color: aliceblue;
 }
