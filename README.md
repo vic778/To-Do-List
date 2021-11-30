@@ -14,7 +14,7 @@
 - WEBPACK
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://friendly-ritchie-7799ef.netlify.app/)
 
 ## Author 1
 
