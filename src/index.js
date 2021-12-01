@@ -1,10 +1,10 @@
 /* eslint-disable import/extensions */
 import './styles.css';
 import addList from './addToList.js';
-import completedTask from './checkBoxItem';
-import editToDoList from './editToList';
-import deleteToDo from './deleteToList';
-import clearAllList from './clearAllToList';
+import completedTask from './checkBoxItem.js';
+import editToDoList from './editToList.js';
+import deleteToDo from './deleteToList.js';
+import clearAllList from './clearAllToList.js';
 
 const todoList = document.querySelector('#todoList');
 const inputFaild = document.querySelector('#inputFaild');
