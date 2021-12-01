@@ -1,6 +1,5 @@
-/* eslint-disable import/extensions */
 import './styles.css';
-import addList from './addToList.js';
+import addList from './addToList';
 import completedTask from './checkBoxItem';
 import editToDoList from './editToList';
 import deleteToDo from './deleteToList';
