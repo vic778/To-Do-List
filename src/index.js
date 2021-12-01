@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import './styles.css';
 import addList from './addToList.js';
 import completedTask from './checkBoxItem.js';
