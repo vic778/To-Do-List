@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > In this project, 
-- I implement the CRUD (create, update, delete) methods. All the elements of the user interface will be fully functional and my application is completed.
+- I implemented the CRUD (create, update, delete) methods. All the elements of the user interface will be fully functional and my application is completed.
 
 
 ![](https://github.com/vic778/To-Do-List/blob/addAndRemove/img/screen3.png)
