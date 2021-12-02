@@ -1,7 +1,11 @@
+// eslint-disable-next-line import/no-cycle
+import { stock, displayToDoList } from './index.js';
+
 export default (e) => {
-  const data = localStorage.getItem('stock');
-  const todoArray = JSON.parse(data);
-  const todoObject = todoArray.find((x) => x.index === Number(e.target.parentNode.id));
-  todoArray.splice(todoArray.indexOf(todoObject), 1);
-  localStorage.setItem('stock', JSON.stringify(todoArray));
+  stock = stock.filter((x) => x.index !== Number(e.target.parentElement.id - 1));
+  for (let i = 0; i < stock.length; i += 1) {
+    stock[i].index = i + 1;
+  }
+  displayToDoList(stock);
+  localStorage.setItem('stock', JSON.stringify(stock));
 };
