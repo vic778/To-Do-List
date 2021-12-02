@@ -6,7 +6,7 @@
 - I implement the CRUD (create, update, delete) methods. All the elements of the user interface will be fully functional and my application is completed.
 
 
-![](img/screen)
+![](https://github.com/vic778/To-Do-List/blob/addAndRemove/img/screen3.png)
 ## Built With
 
 - HTML5
